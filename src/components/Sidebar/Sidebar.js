@@ -27,7 +27,7 @@ const Sidebar = ({ handleCallback, currentId, setcurrentId }) => {
 
   useEffect(() => {
     reset({ ...currentId });
-  }, [currentId]);
+  }, [currentId, reset]);
 
   return (
     <div className="sidebar">
